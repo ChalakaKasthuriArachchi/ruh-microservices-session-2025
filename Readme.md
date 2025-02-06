@@ -51,8 +51,9 @@ The `payment-service` is responsible for processing payments. It listens for pay
    cd RUH-MICROSERVICES-SESSION-2025
 
 2. Build & run the services using Docker Compose
+    If you 
     ```
-    docker-compose up --build
+    docker compose up --build
 
 3. Access the Invoice service using Rest API
     ```
@@ -64,5 +65,5 @@ The `payment-service` is responsible for processing payments. It listens for pay
 
 4. Stop all services
     ```
-    docker-compose down
+    docker compose down
 
