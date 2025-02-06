@@ -67,3 +67,15 @@ The `payment-service` is responsible for processing payments. It listens for pay
 - **Key Files:**
   - [PaymentRequestConsumer.cs](payment-service/Services/PaymentRequestConsumer.cs)
   - [PaymentAckService.cs](payment-service/Services/PaymentAckService.cs)
+
+
+## Appendix
+
+### Some importat docker commands which are going to be used in the demostration
+
+- View running docker containers : `docker ps`
+- View all docker containers : `docker ps -a`
+- View logs of a docker container : `docker logs <container_id/container_name>`
+- Follow the last 50 lines of the logs of a docker container : `docker --tail -f 50 -a <container_id/container_name>`
+- Stop a docker container : `docker stop <container_id/container_name>`
+- Start a docker container : `docker start <container_id/container_name>`
