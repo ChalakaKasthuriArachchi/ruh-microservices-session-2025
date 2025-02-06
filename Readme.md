@@ -49,16 +49,19 @@ The `payment-service` is responsible for processing payments. It listens for pay
 ### Steps
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/ChalakaKasthuriArachchi/ruh-microservices-session-2025
+   ```
+   ssh git clone https://github.com/ChalakaKasthuriArachchi/ruh-microservices-session-2025
    cd RUH-MICROSERVICES-SESSION-2025
 
 2. Build & run the services using Docker Compose
-    ```docker-compose up --build
+    ```
+    docker-compose up --build
 
 3. Access the Invoice service using Rest API
-    ```http://localhost:8080
+    ```
+    http://localhost:8080
 
 4. Stop all services
-    ```docker-compose down
+    ```
+    docker-compose down
 
