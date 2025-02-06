@@ -28,9 +28,6 @@ The `invoicing-service` is responsible for managing invoices. It provides endpoi
 
 The `payment-service` is responsible for processing payments. It listens for payment requests and sends payment acknowledgments.
 
-- **Endpoints:**
-  - `GET /weatherforecast`: Sample endpoint for testing.
-
 - **Technologies:**
   - .NET 8
   - RabbitMQ
