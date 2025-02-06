@@ -19,7 +19,7 @@ This repository contains two microservices: `invoicing-service` and `payment-ser
 2. Build & run the services using Docker Compose
     If you 
     ```
-    docker compose up --build
+    docker compose up --build -d
 
 3. Access the Invoice service using Rest API
     ```
