@@ -20,8 +20,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Expose the port your application will run on
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
 
 # Set the entry point for the container
 ENTRYPOINT ["dotnet", "invoicing-service.dll"]

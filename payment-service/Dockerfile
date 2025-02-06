@@ -19,9 +19,6 @@ WORKDIR /app
 # Copy the published application from the build stage
 COPY --from=build /app/publish .
 
-# Expose the port your application will run on
-EXPOSE 80
-EXPOSE 443
 
 # Set the entry point for the container
 ENTRYPOINT ["dotnet", "payment-service.dll"]
