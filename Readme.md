@@ -61,6 +61,10 @@ The `payment-service` is responsible for processing payments. It listens for pay
     ```
     http://localhost:8080
 
+5. Access swagger API documentation
+    ```
+    http://localhost:8080/swagger
+
 4. Stop all services
     ```
     docker-compose down
