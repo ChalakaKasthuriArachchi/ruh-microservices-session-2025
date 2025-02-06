@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
-Thread.Sleep(5000);
+Thread.Sleep(10000);
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
