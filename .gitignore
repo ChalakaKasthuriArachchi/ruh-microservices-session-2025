@@ -1,0 +1,5 @@
+./invoicing-service/bin/
+./invoicing-service/obj/
+
+./payment-service/bin/
+./invoicing-service/obj/
