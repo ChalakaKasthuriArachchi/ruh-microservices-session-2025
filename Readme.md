@@ -2,6 +2,38 @@
 
 This repository contains two microservices: `invoicing-service` and `payment-service`. These services communicate with each other using RabbitMQ for message passing.
 
+## Running the Services
+
+### Prerequisites
+
+- Docker (https://www.docker.com/get-started/)
+- Docker Compose
+
+### Steps
+
+1. Clone the repository:
+   ```
+   ssh git clone https://github.com/ChalakaKasthuriArachchi/ruh-microservices-session-2025
+   cd RUH-MICROSERVICES-SESSION-2025
+
+2. Build & run the services using Docker Compose
+    If you 
+    ```
+    docker compose up --build
+
+3. Access the Invoice service using Rest API
+    ```
+    http://localhost:8080
+
+5. Access swagger API documentation
+    ```
+    http://localhost:8080/swagger
+
+4. Stop all services
+    ```
+    docker compose down
+
+
 ## Services
 
 ### Invoicing Service
@@ -35,35 +67,3 @@ The `payment-service` is responsible for processing payments. It listens for pay
 - **Key Files:**
   - [PaymentRequestConsumer.cs](payment-service/Services/PaymentRequestConsumer.cs)
   - [PaymentAckService.cs](payment-service/Services/PaymentAckService.cs)
-
-## Running the Services
-
-### Prerequisites
-
-- Docker (https://www.docker.com/get-started/)
-- Docker Compose
-
-### Steps
-
-1. Clone the repository:
-   ```
-   ssh git clone https://github.com/ChalakaKasthuriArachchi/ruh-microservices-session-2025
-   cd RUH-MICROSERVICES-SESSION-2025
-
-2. Build & run the services using Docker Compose
-    If you 
-    ```
-    docker compose up --build
-
-3. Access the Invoice service using Rest API
-    ```
-    http://localhost:8080
-
-5. Access swagger API documentation
-    ```
-    http://localhost:8080/swagger
-
-4. Stop all services
-    ```
-    docker compose down
-
