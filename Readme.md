@@ -60,5 +60,5 @@ The `payment-service` is responsible for processing payments. It listens for pay
     ```http://localhost:8080
 
 4. Stop all services
-    ```docker-compose down`
+    ```docker-compose down
 
